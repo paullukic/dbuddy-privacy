@@ -1,6 +1,6 @@
 # Privacy Policy — DBuddy
 
-Last updated: 2026-10-22 (version 2.0.5)
+Last updated: 2026-10-29 (contact and Settings tab wording)
 
 DBuddy does not sell personal data, and shows no ads. Most of it works only in your browser. The optional DBling coins and foil rarity sharing use a small server of ours, and only after you press **Connect Discord**.
 
@@ -11,7 +11,7 @@ Everything stays on your device, apart from the anonymous theme count below:
 - Your settings (theme, colours, keyboard shortcuts, muted usernames, alert choices, window positions).
 - Your notes, action log, background image, custom CSS, and the finishes you give your cards.
 
-All of this is kept in your browser's extension storage. Settings also sync between your own browsers if you use Chrome sync. You can export, import or erase everything from the Support tab ("Reset all settings"), or by removing the extension.
+All of this is kept in your browser's extension storage. Settings also sync between your own browsers if you use Chrome sync. You can export, import or erase everything in the Settings tab, under Backup and reset ("Reset all settings"), or by removing the extension.
 
 **Anonymous theme count** (on unless you switch it off): once a day, if you have not connected Discord, DBuddy sends our server only which theme you have on (or "no theme"), and our server only adds 1 to that theme's count for the day (kept 30 days). Our server keeps no id, name, account or address; Cloudflare, which hosts it, keeps standard request logs (such as your IP address) for a few days. Switch "Share anonymous theme counts" off in Settings › Privacy to stop it.
 
@@ -43,11 +43,21 @@ If you allow it, the "Or tip" link fills your tip code into the Buy Me a Coffee 
 - **Opponents** who use DBuddy see the finishes you own, under your DuelingBook name, while sharing is on.
 - **Our Discord moderators** see coin events in a private staff channel: your Discord user, coins added or spent, tip and membership amounts, and masked emails (`p•••@gmail.com`). They use it to help with missing coins and to stop abuse.
 
+## Tournament coins (partner Discord servers)
+
+Some partner servers run DuelingBook tournaments with RetroBot, a tournament bot. With the partner's permission, our bot reads the results RetroBot posts in their tournament channels. It only reads; it never posts there. When you place in the paid top places, the coins go to the DBuddy account of your Discord id. We keep:
+
+- **The tournament results we read**: for every match line RetroBot posts, the Discord ids of the players, the names RetroBot shows, the DuelingBook names shown as "(DB: …)" when there are any, who beat whom, and the message ids and times. This covers every player in a watched tournament, also players who do not use DBuddy, because the bracket is rebuilt from all its matches. Only these fields are kept, not the message text.
+- **What was paid**: placement, coins, how the player was matched (Discord id, DuelingBook name, or a moderator), and a moderator's review if there was one.
+
+Our moderators see these in the staff channel, as with other coin events. A player who has a DBuddy account and is on our Discord is told about the coins in a private channel only they can see.
+
 ## Deleting your data
 
 - **Disconnect** signs this browser out.
 - **Delete account** (Settings tab, under Account) deletes your account from our server: coins, purchases, codes, linked email, names and coin history. The finishes on your cards stay in your browser until you clear them.
 - What stays: that your Discord id once used a creator code (so a code cannot be used twice), whether it already got this month's coins, the one-time tip bonus, the one-time Discord join bonus and the pre-2.0 finish claim (so deleting and reconnecting does not hand them out again; no coins, purchases or links), Buy Me a Coffee payments and memberships kept by email hash, Discord roles you were given, and past posts in the staff channel. Email us to remove those too.
+- **Tournament records also stay**, with your Discord id, for audit: the results we read (above) and the placements paid. They show which placement was paid to whom, so a placement can never be paid twice, and a moderator can check a payout later. After you delete your account, no tournament message is sent to you: notices skip deleted accounts.
 - Or email us and we delete it for you.
 
 ## Permissions
@@ -62,6 +72,6 @@ If you allow it, the "Or tip" link fills your tip code into the Buy Me a Coffee 
 
 ## Contact
 
-Questions or deletion requests: paul.lukic94@gmail.com, or open an issue at https://github.com/paullukic/dueling-book-theme-editor/issues.
+Questions or deletion requests: paul.lukic94@gmail.com, or ask a mod in our Discord: https://discord.gg/XtP5Vj4q3C.
 
 Publisher: Sudbina
