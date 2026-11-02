@@ -11,7 +11,7 @@ Everything stays on your device, apart from the anonymous theme count below:
 - Your settings (theme, colours, keyboard shortcuts, muted usernames, alert choices, window positions).
 - Your notes, action log, background image, custom CSS, and the finishes you give your cards.
 
-All of this is kept in your browser's extension storage. Settings also sync between your own browsers if you use Chrome sync. You can export or import it in the Settings tab, under Backup and reset. "Reset all settings" there puts your settings back to default and clears the cached overframe images and the list of cards they came from. Removing the extension erases all of it.
+All of this is kept in your browser's extension storage. Settings also sync between your own browsers if you use Chrome sync. You can export or import it in the Settings tab, under Backup and reset. "Reset all settings" there puts your settings back to default and clears the cached overframe images and the list of cards they came from. The foil images DBuddy draws for itself stay on your device until the next update redraws them. They hold nothing about you. Removing the extension erases all of it.
 
 **Rarity list updates:** on install, and at most every 2 days after, DBuddy asks our server whether the list of real card rarities changed, and downloads it if so. These requests carry no account or settings, and our server keeps nothing from them. Like any request, they reach our host (Cloudflare) with your IP address, and on Firefox with the random id of your install, neither of which we store.
 
@@ -69,7 +69,7 @@ Our moderators see these in the staff channel, as with other coin events. A play
 ## Permissions
 
 - **storage**: to remember your settings and notes.
-- **unlimitedStorage**: so a large background image fits on your device. Nothing is uploaded.
+- **unlimitedStorage**: so a large background image and the foil images DBuddy draws fit on your device. Nothing is uploaded.
 - **scripting**: to re-attach the extension to DuelingBook tabs that were already open when it was installed or updated, to load a theme's attack effect or animated scene from the extension's own files when a DuelingBook tab needs it, and to fill your tip code on the Buy Me a Coffee page when you click "Or tip".
 - **identity** (optional, asked when you press Connect Discord): to log in with Discord.
 - **Our points server** (optional host permission, asked with Connect Discord): to read and update your coins.
