@@ -1,6 +1,6 @@
 # Privacy Policy — DBuddy
 
-Last updated: 2026-10-31 (paid roles on Delete account)
+Last updated: 2026-11-04 (purchases of the last hour kept for undo; rarity sell-back)
 
 DBuddy does not sell personal data, and shows no ads. Most of it works only in your browser. The optional DBling coins and foil rarity sharing use a small server of ours, and only after you press **Connect Discord**.
 
@@ -26,8 +26,8 @@ The extension reads public files from DuelingBook's own image server (images.due
 DBling coins, bought finishes and showing your finishes to opponents need an account. Your Discord account is that account. When you connect, our server (Cloudflare Workers and Cloudflare D1, stored in Europe) keeps:
 
 - **Your Discord user id**, and a **hash of your Discord email** (SHA-256, plus a masked hint such as `p•••@gmail.com`). Discord only gives us the email if it is verified. It is used only to match your Buy Me a Coffee membership and tips to your coins. We never keep the email itself, your Discord name, your messages or your password.
-- **Your coins**: balance, membership tier, whether it is paid yearly, and a history of grants, purchases, tips and top-ups.
-- **What you bought**: the finishes and looks per card name, and a copy of the finishes your cards show, so a new browser can get them back.
+- **Your coins**: balance, membership tier, whether it is paid yearly, and a history of grants, purchases, undone purchases, rarities sold back, tips and top-ups.
+- **What you bought**: the finishes and looks per card name, and a copy of the finishes your cards show, so a new browser can get them back. Your purchases of the last hour (what each bought and cost) are kept for 60 minutes so you can undo one, along with how many undos you used this month and which finishes were free pre-2.0 gifts that cannot be sold back.
 - **Your DuelingBook name**, linked when you log in, if "Show my rarities to opponents" is on. Opponents who use DBuddy then see the finishes you own. Turn it off in the Rarities tab, and your shared list is deleted.
 - **Codes**: your tip code, and the creator code you used or own (creator program).
 - **Which DBuddy theme you have on**: only the theme's name (or "no theme"), sent with the coin refresh, and the days of the last 30 on which each theme was on. It shows us which themes people use, so unused ones can be retired. Nothing else about your settings is sent.
