@@ -1,6 +1,6 @@
 # Privacy Policy — DBuddy
 
-Last updated: 2026-11-04 (purchases of the last hour kept for undo; rarity sell-back)
+Last updated: 2026-11-06 (theme images from our image server; before: purchases of the last hour kept for undo, rarity sell-back)
 
 DBuddy does not sell personal data, and shows no ads. Most of it works only in your browser. The optional DBling coins and foil rarity sharing use a small server of ours, and only after you press **Connect Discord**.
 
@@ -20,6 +20,8 @@ All of this is kept in your browser's extension storage. Settings also sync betw
 The extension reads public files from DuelingBook's own image server (images.duelingbook.com), the same ones the site loads.
 
 **Overframe images**: if you or a player you watch shows a card as Overframe (UR) or Overframe (ST), DBuddy downloads that card's overframe images from our image server (dbuddy-assets.shadow-lukic31-6cc.workers.dev). Like any web request this shows the server your IP address and which card's images were asked for. No cookie or id is sent, and we keep no logs of these requests. The images are kept in your browser so they are not downloaded again.
+
+**Theme images**: while the Mirror Flower theme is on (with Theme effects), DBuddy downloads its scene picture and hover images from the same image server, and checks a small file there once in a while that can switch them off. Like the overframe images, this shows the server your IP address and which files were asked for; no cookie or id is sent, we keep no logs, and the images are kept in your browser.
 
 ## With "Connect Discord" (optional)
 
